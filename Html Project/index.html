@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSiTY WEBSitE DESIGN TUTORIAL</title>
+    <link rel="stylesheet" href="index.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,200;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+<body>
+    <section class="header">
+<nav>
+    <a href="index.html"> <img src ="/image/logo.png" alt="image"> </a>
+    <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="" >HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>world's biggest university</h1>
+    <p>Making website is now one of the easiest thing in the world. you just need to 
+        learn HTML,CSS,<br>javascript and your are good to go.</p>
+        <a href="" class="hero-btn" >Visit Us For More</a>
+
+</div>
+    </section>
+    <!---- course ---->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>lorum ipsum lorum ipsumlorum ipsumlorum ipsum lorumipsum lorumipsumlorumi psumlo rumipsum</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <p>Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                     pain, but occasionally circumstances occur in which toil and 
+                     pain can procure him some great pleasure.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                     pain, but occasionally circumstances occur in which toil and 
+                     pain can procure him some great pleasure.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                     pain, but occasionally circumstances occur in which toil and 
+                     pain can procure him some great pleasure.</p>
+            </div>
+
+        </div>
+    </section>
+    <!--campus --->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>lorum ipsum lorum ipsumlorum ipsumlorum ipsum lorumipsum lorumipsumlorumi psumlo rumipsum</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="/image/london.png" alt="image">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/newyork.png" alt="image">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/washington.png" alt="image">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---facilities-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>lorum ipsum lorum ipsumlorum ipsumlorum ipsum lorumipsum lorumipsumlorumi psumlo rumipsum</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/library.png" >
+                <h3>World Class Library</h3>
+                <p>lorum ipsum lorum ipsumlorum ipsumlorum ipsum lorumipsum lorumipsumlorumi psumlo rumipsum</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/basketball.png" >
+                <h3>Largest Play Ground</h3>
+                <p>lorum ipsum lorum ipsumlorum ipsumlorum ipsum lorumipsum lorumipsumlorumi psumlo rumipsum</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/cafeteria.png" >
+                <h3>Tasty and Healthy Food</h3>
+                <p>lorum ipsum lorum ipsumlorum ipsumlorum ipsum lorumipsum lorumipsumlorumi psumlo rumipsum</p>
+            </div>
+        </div>    
+    </section>
+    
+
+    <!--java script for toggol menu -->
+    <script>
+        var navLink = document.getElementById("navLink")
+        function showmenu(){
+            navLink.style.right= "0";
+        }
+        function hidemenu(){
+            navLink.style.right="-200px";
+        }
+    </script>
+
+    <!--testimonial-->
+    <section class="testimonial">
+        <h1>What Our Students Says</h1>
+        <p>lorum ipsum lorum ipsumlorum ipsumlorum ipsum lorumipsum lorumipsumlorumi psumlo rumipsum</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="/image/user1.jpg" alt="image">
+                <div>
+                <p>Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                    pain, but occasionally circumstances occur in which toil and 
+                    pain can procure him some great pleasure.</p>
+                    <h3>Christine Berkly</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="/image/user2.jpg" alt="image">
+                <div>
+                <p>Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                    pain, but occasionally circumstances occur in which toil and 
+                    pain can procure him some great pleasure.</p>
+                    <h3>David Bayer</h3>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
